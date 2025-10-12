@@ -7,7 +7,9 @@
 
 现在还是了解一些简单的事情吧！
 ## API Key申请
-我一般调用的都是 GitHub Modules 提供的免费 tokens，可以调用gpt-4o、gpt-4o-mini等模型回复。申请前想要大家有一个 GitHub 的账号。（以后的工作、学习也非常有用，青协例会之后应该也会讲 git 的使用，相信技术部）
+我一般调用的都是 GitHub Modules 提供的免费 tokens，可以调用gpt-4o、gpt-4o-mini等模型回复。申请前需要大家有一个 GitHub 的账号（并且可以稳定访问 GitHub）。
+
+> GitHub 在以后的工作、学习也非常有用，青协例会之后应该也会讲 git 的使用，相信技术部:）
 
 ### Step1
 打开 GitHub 主页，在左上角头像下的菜单栏中找到 Settings，进入设置界面。
@@ -33,5 +35,6 @@
 如果你想调用其他模型或厂商的 API，也请仔细阅读相关官方文档，并确定其支持 OpenAI 风格 API Key。（例如 DeepSeek 的 API 就是支持的）以及记得在`main.py`修改`model_name`和`base_url`。
 ## 具体参数的作用
 这个详细可见`main.py`的注释。
+
 
 有能力的同学也欢迎自行探索并修改文件参数。（玩坏了可以从这个仓库重新下一个，而且学会 git 后可以回退版本嘛）
